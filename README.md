@@ -5,7 +5,13 @@
 0.1.0
 
 ## Usage 
-    <script>
+    $(document).ready(function() {
+            $('span').linkIt({
+                href       :'http://test.com',
+                text       :'Click me',
+                target     :'_blank',
+            });
+        });
 
 ## Vendors
 jQuery - [http://jquery.com](http://jquery.com)
